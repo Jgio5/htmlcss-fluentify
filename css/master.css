@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* /header*/
+header{
+  position: relative;
+  height: 60vh;
+  background-color: #0e3762;
+}
+
+.photo_men{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 70%;
+  width: 50%;
+}
+.photo_men img{
+  height: 100%;
+  width: 100%;
+}
+
+.container_header{
+  position: relative;
+  width: 80%;
+  height: 60vh;
+  margin: 0 auto;
+}
+
+.clearfix{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.menu{
+  width: 100%;
+  line-height: 50px;
+}
+
+.logo img{
+  float: left;
+  width: 10%;
+}
+
+.nav_left{
+  float: left;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.nav_right{
+  float: left;
+  width: 40%;
+  text-align: right;
+}
+
+ul li{
+  display: inline;
+  list-style: none;
+  text-transform: uppercase;
+}
+ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.nav_left li{
+  margin-right: 10px;
+}
+.nav_right li{
+  margin-left: 10px;
+}
+
+#login{
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+
+ #struttura{
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #7cbb02;
+}
+
+.slogan{
+  position: absolute;
+  bottom: 30%;
+  width: 40%;
+  line-height: 70px;
+  color: white;
+}
+.slogan h1{
+  font-size: 50px;
+  font-weight: bold;
+}
+.slogan span{
+  text-transform: uppercase;
+}
+/* /header*/
+
+/* header banner */
+.banner{
+  position: relative;
+  height: 20vh;
+  background-color: lightgrey;
+  text-align: center;
+}
+
+.text_banner{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+/* /header banner */
+
+/* main */
+.container_main{
+  width: 80%;
+  margin: 0 auto;
+}
+
+col{
+  float: left;
+  width: 33,33%;
+}
